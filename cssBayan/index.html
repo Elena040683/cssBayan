@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css"
+      integrity="sha512-sqIVMkf5f8XGYI/UZYGs7wODxlUeoj9JknataPfUwtvrSKWMHrMXGZ7Evb6nabFYJQG15vFFyALe6r0nWCD1Ug=="
+      crossorigin="anonymous"
+    />
+  <link
   href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
   rel="stylesheet"
 />
@@ -16,7 +22,12 @@
     <h1>CSS Bayan</h1>
     <hr/>
     <div class="mem">
-      <label class="title" for="cat">Кому денег и счастливую жижнь?</label>
+      <label class="title" for="cat">Кому денег и счастливую жизнь?
+        <svg width="20" height="20">
+          <use href="./svg/symbol-defs.svg#icon-plus" class="icon-open"></use>
+          <use href="./svg/symbol-defs.svg#icon-cross" class="icon-close"></use>
+        </svg>
+      </label>
       <input class="input" type="radio" id="cat">
       <div class="mem-thumb">
         <img src="./img/cat.jpg" alt="cat">
